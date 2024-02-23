@@ -25,9 +25,3 @@ func minhaPotencia(base, expoente int) int {
 	}
 	return resultado
 }
-
-func main() {
-	base := 2
-	expoente := 3
-	fmt.Printf("%d elevado a %d é igyak a %d\n", base, expoente, minhaPotencia(base, expoente))
-}
