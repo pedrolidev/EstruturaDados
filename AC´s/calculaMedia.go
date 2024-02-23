@@ -15,6 +15,3 @@ func calculaMedia(valores ...float64) float64 {
 	media := soma / float64(len(valores))
 	return media
 }
-
-
-
